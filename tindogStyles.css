@@ -1,0 +1,177 @@
+ body{
+ 	font-family:"Poppins", sans-serif;
+}
+
+ #title{
+	background-color: #FF4C68;
+}
+
+.container-fluid{
+	padding: 3% 15% 7% !important;
+
+}
+
+h1{
+	font-family: "Poppins", sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #fff;
+}
+
+.navbar{
+	padding:0 0 4.5rem; /*only bottom padding*/
+}
+
+.navbar-brand{
+	font-family: "ubuntu";
+	font-weight: bold;
+	color: #fff;
+	font-size: 2.5rem;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link{
+	display: block;
+    padding: .5rem 1rem;
+	color:1.2rem ;
+	font-family:montserrat-light; 
+}
+
+.btn{
+	font-weight: 400;
+}
+
+.iphone-img {
+ transform: rotate(20deg);
+ width: 60%;
+ position: absolute;
+ right: 30%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+a{
+	text-align: center;
+}
+/*feature section*/
+
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+}
+
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+
+h2{
+	font-family:"Poppins", sans-serif;;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    font-weight: bolder;
+}
+
+p{
+ color: #8f8f8f;
+ font-weight: 400;
+ font-size: 16px !important;
+}
+
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.icon:hover{
+	color: #ff4c68
+}
+
+#testimonials {
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 30px; /*top:20px left-right:20px bottom:30px*/
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+/*pricing section */
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-col{
+	padding: 3% 2%;
+}
+
+/*CTA Section*/
+
+#cta{
+	background-color: #FF4C68;
+	color: #fff;
+	padding: 7% 15%;
+}
+h3.cta-heading {
+	font-family: "Poppins", sans-serif;
+	font-size: 3.5rem;
+	color: #fff;
+	line-height: 1.5;
+}
+
+/*footer section */
+
+#footer{
+	padding: 7% 15%;
+	text-align: center;
+}
+.social-icon{
+	margin: 20px 10px;
+}
+
+@media (max-width:1028px){
+
+	#title{
+		text-align: center;
+	}
+
+	.iphone-img{
+		position: static;
+		transform: rotate(0);
+		margin-top: 20px;
+	}
+}
